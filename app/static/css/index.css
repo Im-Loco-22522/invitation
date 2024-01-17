@@ -1,0 +1,25 @@
+html,
+body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+    text-align: center;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+span.title {
+    /* font-family: Gabriola; */
+    /* font-family: Monotype Corsiva; */
+    /* font-family: Segoe print; */
+    font-family: 'ofont.ru_Sweet Mavka Script';
+    src: url("static/fonts/timesnewromanpsmt.ttf");
+    /* font-family: ; */
+
+}
