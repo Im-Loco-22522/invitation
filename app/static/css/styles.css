@@ -1,0 +1,81 @@
+html,
+body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+    text-align: center;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+body {
+    background: #17233C;
+    /* background-image: url("../img/фон4.jpg"); */
+    /* Фоновый цвет и фоновый рисунок*/
+    color: #fff;
+    /*Цвет текста на странице*/
+    background-attachment: fixed;
+    /* Фон страницы фиксируется */
+    background-repeat: repeat-x;
+    /* Изображение повторяется по горизонтали */
+    background-size: 100% 100%;
+    background-position: center;
+    padding: 3%;
+
+}
+
+
+@font-face {
+    font-family: "Grosvenor Script";
+    src: url("../fonts/Grosvenor Script.ttf") format('truetype');
+}
+
+
+span {
+    font-family: "Grosvenor Script";
+
+}
+
+span.title {
+    font-size: 100px;
+    font-weight: normal;
+    background-image: linear-gradient(to right, #462523 0, #cb9b51 22%, #f6e27a 45%, #f6f2c0 50%, #f6e27a 55%, #cb9b51 78%, #462523 100%);
+    -webkit-background-clip: text;
+}
+
+@font-face {
+    font-family: "Miama Nueva";
+    src: url("../fonts/Miama Nueva.ttf") format('truetype');
+}
+
+.text {
+    font-family: "Miama Nueva";
+    line-height: 1.3em;
+    color: transparent;
+    font-weight: bold;
+    background-image: linear-gradient(to right, #462523 0, #cb9b51 22%, #f6e27a 45%, #f6f2c0 50%, #f6e27a 55%, #cb9b51 80%, #462523 100%);
+    -webkit-background-clip: text;
+    padding: 4.5%;
+}
+
+p {
+    font-size: 80%;
+    /* padding: 1.5%; */
+    
+}
+
+.mainBlock {
+    border-style: double;
+    font-weight: bold;
+    border-image: linear-gradient(to right, #462523 0, #cb9b51 22%, #f6e27a 45%, #f6f2c0 50%, #f6e27a 55%, #cb9b51 78%, #462523 100%);
+    /* border-width: 0.25em; */
+    border-image-slice: 80;
+
+
+}
