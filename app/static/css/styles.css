@@ -16,6 +16,8 @@ body {
 
 body {
     background: #17233C;
+    /* background: #33424B; */
+    /* background: #163142; */
     /* background-image: url("../img/фон4.jpg"); */
     /* Фоновый цвет и фоновый рисунок*/
     color: #fff;
@@ -37,16 +39,17 @@ body {
 }
 
 
-span {
-    font-family: "Grosvenor Script";
+span,
+h3 {
+    font-family: "Miama Nueva";
+    /* color: #D7C384; */
 
 }
 
 span.title {
+    font-family: "Grosvenor Script";
     font-size: 100px;
     font-weight: normal;
-    background-image: linear-gradient(to right, #462523 0, #cb9b51 22%, #f6e27a 45%, #f6f2c0 50%, #f6e27a 55%, #cb9b51 78%, #462523 100%);
-    -webkit-background-clip: text;
 }
 
 @font-face {
@@ -55,27 +58,53 @@ span.title {
 }
 
 .text {
-    font-family: "Miama Nueva";
+    /* font-family: "Miama Nueva"; */
     line-height: 1.3em;
-    color: transparent;
-    font-weight: bold;
-    background-image: linear-gradient(to right, #462523 0, #cb9b51 22%, #f6e27a 45%, #f6f2c0 50%, #f6e27a 55%, #cb9b51 80%, #462523 100%);
-    -webkit-background-clip: text;
     padding: 4.5%;
 }
 
 p {
+    font-family: "Miama Nueva";
+    font-weight: bold;
+    /* font-family: "Grosvenor Script"; */
     font-size: 80%;
-    /* padding: 1.5%; */
-    
+    padding: 1.5%;
+
 }
 
 .mainBlock {
     border-style: double;
-    font-weight: bold;
+    /* font-weight: bold; */
+    color: transparent;
     border-image: linear-gradient(to right, #462523 0, #cb9b51 22%, #f6e27a 45%, #f6f2c0 50%, #f6e27a 55%, #cb9b51 78%, #462523 100%);
     /* border-width: 0.25em; */
     border-image-slice: 80;
+    text-shadow: 0.5px 0.5px 25px #000000;
 
 
+}
+
+.date {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+div {
+    color: transparent;
+    background-image: linear-gradient(to right, #462523 0, #cb9b51 22%, #f6e27a 45%, #f6f2c0 50%, #f6e27a 55%, #cb9b51 80%, #462523 100%);
+    -webkit-background-clip: text;
+}
+
+.tableImg {
+    /* text-align: center;
+    display: inline-block */
+    width: 20%;
+    /* background-image: linear-gradient(to right, #462523 0, #cb9b51 22%, #f6e27a 45%, #f6f2c0 50%, #f6e27a 55%, #cb9b51 80%, #462523 100%);
+        -webkit-background-clip: text; */
+    /* color: transparent;
+    background-image: linear-gradient(to right, #462523 0, #cb9b51 22%, #f6e27a 45%, #f6f2c0 50%, #f6e27a 55%, #cb9b51 80%, #462523 100%); */
+    /* -webkit-background-clip: text; */
+    /* shadow: 0.5px 0.5px 25px #F0BC5E; */
+    -webkit-filter: drop-shadow(5px 5px 5px #F0BC5E);
+        filter: drop-shadow(5px 5px 5px #F0BC5E);
 }

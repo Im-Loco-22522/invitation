@@ -27,11 +27,25 @@
 
         <div>
             <h3> Время и место</h3>
+
+            <p><span class="date"> 31 Августа 2024 </span></p>
+            <img src="{{ url_for('static', filename='img/lower monogram.png') }}" width="90%">
             <!-- 2 фотографии по середине дата и время, адресс -->
 
             <h3> Программа мероприятия</h3>
             <!--  Рассписать план дня
             иконка, время название мер-я, адресс -->
+            <table id="programDay">
+                <tr>
+                    <td><img class="tableImg" src="{{ url_for('static', filename='img/Muzik.png') }}" >
+                    </td>
+                    <td>ЗАГС</td>
+                </tr>
+                <tr>
+                    <td>Ячейка 3</td>
+                    <td>Ячейка 4</td>
+                </tr>
+            </table>
 
             <h3>Пожелания от молодоженов</h3>
             <span>Нафиг ваши подарки, дарите деньги! Мы на ипотеку копим.</span>
